@@ -1506,13 +1506,11 @@ spawn(
 )
 
 for c = 1, 10 do
-    wait(.3)
     Loadingtext.Text = "Loading Place" .. string.rep(".", repss % 3 + 1)
     repss = repss + 1
 end
 
 Loadingtext.Text = "Loading Place: Success"
-wait(1)
 
 local repss = 0
 
@@ -1530,11 +1528,9 @@ if game.PlaceId == 1537690962 or game.PlaceId == 4079902982 then
         SynapShitPage.Visible = true
         SynapShitPage:TweenPosition(UDim2.new(0.416354954, 0, -0.717690426, 0))
         DarkCyberSynapshitGUI:Destroy()
-        wait(1)
         MiniPage:TweenPosition(UDim2.new(0.361979187, 0, 0.34183538, 0)) --0.361979187, 0, 0.34183538, 0
     else
         LoadingFrame:TweenPosition(UDim2.new(0.410933673, 0, -0.7, 0))
-        wait(1)
         DarkCyberLoadingGUI:Destroy()
         MiniPage:TweenPosition(UDim2.new(0.361979187, 0, 0.34183538, 0)) --0.361979187, 0, 0.34183538, 0
     end
