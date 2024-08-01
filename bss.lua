@@ -1526,12 +1526,9 @@ if game.PlaceId == 1537690962 or game.PlaceId == 4079902982 then
     Loadingtext.Text = "Loading UI: Success"
     if syn then
         LoadingFrame:TweenPosition(UDim2.new(0.410933673, 0, -0.7, 0))
-        wait(1)
         DarkCyberLoadingGUI:Destroy()
         SynapShitPage.Visible = true
-        wait(2)
         SynapShitPage:TweenPosition(UDim2.new(0.416354954, 0, -0.717690426, 0))
-        wait(1)
         DarkCyberSynapshitGUI:Destroy()
         wait(1)
         MiniPage:TweenPosition(UDim2.new(0.361979187, 0, 0.34183538, 0)) --0.361979187, 0, 0.34183538, 0
